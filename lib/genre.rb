@@ -5,7 +5,7 @@ class Genre
     @name = name
     @@all << name
   end
-  
+
   def self.all
     @@all
   end
